@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zunurain | Personal Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.min.css" integrity="sha512-3PN6gfRNZEX4YFyz+sIyTF6pGlQiryJu9NlGhu9LrLMQ7eDjNgudQoFDK3WSNAayeIKc6B8WXXpo4a7HqxjKwg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/utils.css">
+    <link rel="stylesheet" href="styles/style.css">
+    
+</head>
+<body>
+    <!--Navbar-->
+    <div class="navbar">
+        <div class="container flex">
+            <h1 class="logo">Zunurain</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="works.html">My Works</a></li>
+                    <li><a href="services.html">My Services</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!--Showcase-->
+    <section class="showcase">
+        <div class="container grid">
+            <div class="showcase-text">
+                <h1>Know me</h1>
+                <p>Who i am, what i do, what i can help you achieve and my works.
+                    Fill out the form to reach me!
+                </p>
+                <a href="works.html" class="btn btn-outline">See my works</a>
+            </div>
+            <div class="showcase-form card">
+                <h2>Reach Me</h2>
+                <form name="reach" method="POST" data-netlify ="true" netlify-honeypot="bot-field" >
+                    <input type="hidden" name="form-name" value="reach">
+                    <p class="hidden">
+                        <label>
+                          Don’t fill this out if you’re human: <input name="bot-field" />
+                        </label>
+                      </p>
+                    <div class="form-control">
+                        <input type="text" name="name" id="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" name="company" id="company" placeholder="Company / Individual" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                    </div>
+                    <input type="submit" value="Send" class="btn btn-primary">
+                </form>
+            </div>       
+        </div>        
+    </section>
+
+    <!--Stats-->
+    <section class="stats">
+        <div class="container">
+            <h3 class="stats-heading text-center my-1">
+                Welcome to my website, get to know who i am and how i can add
+                value to your organisation.
+            </h3>
+            <div class="grid grid-3 text-center my-4">
+                <div>
+                    <i class="fas fa-certificate fa-2x"></i>
+                    <h3>14,000,789</h3>
+                    <p class="text-secondary">
+                         Certificates
+                    </p>      
+                </div>
+                <div>
+                    <i class="fas fa-trophy fa-2x"></i>
+                    <h3>14,000,789</h3>
+                    <p class="text-secondary">
+                        Achievements
+                    </p>         
+                </div>
+                <div>
+                    <i class="fas fa-project-diagram fa-2x"></i>  
+                    <h3>14,000,789</h3>
+                    <p class="text-secondary">
+                        Projects
+                    </p>                     
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Cli-->
+    <section class="cli">
+        <div class="container grid">
+            <img src="images/cli.png" alt="Image of command line installatin of Zunurain" srcset="">
+            <div class="card">
+                <h3>Dediated, innovative and multi talented individual</h3>
+            </div>
+            <div class="card">
+                <h3>A rare gem</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cloud -->
+    <section class="cloud bg-primary my-2 py-2">
+        <div class="container grid" >
+            <div class="text-center">
+                <h2 class="lg">What i offer</h2>
+                <p class="lead my-1">
+                    Cloud hosting like never before
+                </p>
+                <a href="works.html" class="btn btn-dark">See my Works</a>
+            </div>
+            <img src="images/cloud.png" alt="" srcset="">
+        </div>
+    </section>
+
+    <!-- Certificates -->
+    <section class="certificates">
+        <h2 class="md text-center my-2">
+            My Certificates
+        </h2>
+        <div class="container flex" id="flex">
+            <div class="card">
+                <h4>Web Analytics</h4>
+                <img src="images/logos/clojure.png" alt="Zunurain's certificate for Web Analytics from Futurelearn" srcset="">
+            </div>
+            <div class="card">
+                <h4>UserX Design</h4>
+                <img src="images/logos/csharp.png" alt="Zunurain's certificate for UX Design from Futurelearn " srcset="">
+            </div>
+            <div class="card">
+                <h4>Web Analytics</h4>
+                <img src="images/logos/python.png" alt="Zunurain's certificate for Web Analyticsfrom Futurelearn" srcset="">
+            </div>
+            <div class="card">
+                <h4>Web Scraping</h4>
+                <img src="images/logos/ruby.png" alt="Zunurain's certificate for Web Scraping from Simplilearn" srcset="">
+            </div>
+            <div class="card">
+                <h4>SE Optimisation</h4>
+                <img src="images/logos/node.png" alt="Zunurain's certificate for SEO from eMarketing Institute" srcset="">
+            </div>
+            <div class="card">
+                <h4>Interaction Design</h4>
+                <img src="images/logos/php.png" alt="Zunurain's certificate for Interaction Design from Linkedin Learning" srcset="">
+            </div>
+            <div class="card">
+                <h4>Data Visualisation</h4>
+                <img src="images/logos/go.png" alt="Zunurain's certificate for Data Visualisation from Linkedin Learning" srcset="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark py-5">
+        <div class="container grid grid-3">
+            <div>
+                <h1>Zunurain</h1>
+                <p>Copyright &copy; 2022</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="works.html">My Works</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </nav>
+            <div class="social">
+                <a href="https://www.twitter.com/ZunurainEni29" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/zunurainojuolape" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=2349034384663" target="_blank"><i class="fab fa-whatsapp fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
